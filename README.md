@@ -4,16 +4,19 @@ The assumption is that you have an X amount of itns coin and will sell them for 
 
 Making this operation will produce a value difference, all differencies are calculated by the script
 
+# Usage
 trade.sh itns sellprice buybackprice  
 itns - is the amount of coins you want to sell and buyback    
 sellprice - the price you sell itns for, expressed in satoshi or BTC  
 buybackprice - the price you will buy itns back, expressed in satoshi or BTC  
+  
 Examples:  
 Price expressed in satoshi  
 trade.sh 1000 60 50  
 Price expressed in BTC  
 trade.sh 1000 0.00000060 0.00000050  
 
+# Output sample
 ```
 user@localhost:~$ ./trade.sh 1000 60 55                                   
 Initial state
